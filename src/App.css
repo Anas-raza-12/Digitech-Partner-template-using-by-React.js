@@ -1,0 +1,107 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+
+}
+nav ul .active {
+  background-color: #0088cc !important;
+  color: #fff !important;
+  border-radius: 30px;
+}
+ul,
+li,
+a {
+  list-style: none;
+  margin: 0;
+  
+}
+
+nav ul > li {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0.5vh 0.3vw;
+  padding: 10px;
+}
+
+nav button {
+  border: none !important;
+}
+nav h5 {
+  font-size: 20px;
+  margin: 0vh 2vw;
+  font-weight: 700;
+}
+nav h5 > a {
+  color: #0088cc !important;
+}
+.Footer .menu > ul {
+  display: flex;
+  gap: 4;
+  justify-content: center;
+}
+.navber li a {
+  color: #fff;
+  font-weight: 700;
+  padding: 1vh;
+}
+
+.Footer {
+  margin-top: 4vh;
+}
+.Footer div {
+  margin: 3vh 0vw;
+}
+.Footer li > a {
+  padding: 1vh;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.Footer p {
+  color: gray;
+  font-weight: 600;
+}
+
+.Footer .col-lg-4 {
+  width: 33% !important;
+  height: 6vh;
+  margin: 0vh auto !important;
+}
+.Footer .active {
+  border-bottom: 3px solid #61ce70;
+}
+@media (max-width: 1024px) {
+  nav ul .active {
+    padding: 1vh 2vw;
+  }
+}
+@media (max-width: 445px) {
+  nav ul li {
+    padding: 0;
+  }
+  nav ul .active {
+    padding: 1vh 2vw;
+  }
+  .Footer .menu > ul {
+    display: inline-block;
+    gap: 4;
+    justify-content: center;
+    padding: 0;
+  }
+  .Footer ul li {
+    margin: 2vh;
+  }
+  .Footer ul li a {
+    font-size: 14px;
+    padding: 0.5vh;
+  }
+  .Footer .col-lg-4 {
+    width: 33% !important;
+    height: 3vh !important;
+  }
+}
