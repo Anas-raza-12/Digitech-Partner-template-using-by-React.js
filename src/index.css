@@ -659,6 +659,7 @@ color: #000;
   margin: auto;
   text-align: center;
   border-radius: 30px;
+  transition: 1s;
 
   box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.295);
   height: 100%;
@@ -682,6 +683,8 @@ color: #000;
 }
 .Pricing > .second-container .col-lg-4 h1 {
   font-size: 50px;
+  transition: 1s;
+  
   font-weight: 700;
   color: #2c3590;
 }
@@ -1115,7 +1118,15 @@ color: #000;
 
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.37);
   }
+  .Pricing > .second-container .row .col-md-5 {
+    width: 47vw !important;
+    margin: 3vh auto;
+    text-align: center;
+    border-radius: 30px;
 
+    box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.295);
+    height: 100%;
+  }
   .Contact .third-container > .row h1 {
     font-size: 50px !important;
     line-height: 55px;
@@ -1210,12 +1221,13 @@ color: #000;
 
     font-weight: 700;
   }
-  .Pricing > .second-container .col-lg-4 {
-    width: 95vw;
+
+  .Pricing > .second-container .row .col-md-5 {
+    width: 95vw !important;
     margin: 3vh auto;
     text-align: center;
     border-radius: 30px;
-    /* border: 1px solid; */
+
     box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.295);
     height: 100%;
   }
