@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Bubble from "/src/assets/image/bubble-purple.png.png";
 
-// Function to strip HTML tags from content
+
 const stripHTML = (html) => {
     const tempElement = document.createElement("div");
     tempElement.innerHTML = html;
