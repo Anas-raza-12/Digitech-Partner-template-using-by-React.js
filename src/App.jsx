@@ -6,6 +6,7 @@ import Home from "./components/home";
 import About from "./components/AboutUs";
 import Services from "./components/Service";
 import Blogs from "./components/Blog";
+import Blog_detail from "./components/Blog_detail";
 import Pricing from "./components/pricing";
 import Contact from "./components/Contact";
 import "./App.css";
@@ -22,7 +23,7 @@ const App = () => {
         <Route path="/blog" element={<Blogs />} />
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/Contact" element={<Contact />} />
-        {/* Add other routes as needed */}
+        <Route path="/blogdetails/:id" element={<Blog_detail />} />
       </Routes>
       <Footer/>
     </Router>
