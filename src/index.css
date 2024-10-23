@@ -1281,3 +1281,25 @@ color: #000;
     margin-left: 140px;
   }
 }
+/* -----------------------------------------------------------------------Blog  Detail ----------------------------------------------------------------------- */
+.BlogDetail h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.BlogDetail p{
+  font-size: 16px;
+}
+.BlogDetail p span{
+  color: #2C3590;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+.BlogDetail img{
+  width: 90% !important;
+  height: 60vh !important;
+  margin: 4vh auto !important;
+}
+.BlogDetail div{
+  width: 90%;
+}

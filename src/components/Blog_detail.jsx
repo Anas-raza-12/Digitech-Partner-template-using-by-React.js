@@ -24,13 +24,13 @@ const Blog_detail = () => {
     }
 
     return (
-        <div style={{ marginTop: "20vh", padding: "20px" }} className="container">
+        <div style={{ marginTop: "20vh", padding: "20px" }} className="container BlogDetail">
             <h1>{blog.title}</h1>
-            <p>{new Date(blog.created_at).toLocaleDateString()} / {blog.upload_by}</p>
-            <img src={`https://rootletsolutions.com/rootlet-admin/${blog.img}`} alt={blog.title} width="100%" />
+            <p><span>Date :</span> {new Date(blog.created_at).toLocaleDateString()} </p>
+            <img src={`https://rootletsolutions.com/rootlet-admin/${blog.img}`} alt={blog.title} />
             <div dangerouslySetInnerHTML={{ __html: blog.content }} />
         </div>
     );
 };
 
-export default Blog_detail;
+export default Blog_detail; 
