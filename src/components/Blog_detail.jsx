@@ -19,7 +19,7 @@ const Blog_detail = () => {
     }, [id]);
 
     if (!blog) {
-        return <p>Loading blog...</p>;
+        return <div style={{display:"flex", alignItems:"center", justifyContent:"center", height:"70vh" , }}><h1>Loading blog...</h1> </div>;
     }
 
     return (

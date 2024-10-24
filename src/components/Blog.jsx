@@ -42,7 +42,7 @@ const Blog = () => {
                     {blogs.map((blog) => (
                         <div key={blog.id} className="row blog-sec">
                             <div className="col-lg-3">
-                                <img width={"100%"} src={`https://rootletsolutions.com/rootlet-admin/${blog.img}`} alt={blog.title} />
+                                <Link to={`/blogdetails/${blog.id}`}><img width={"100%"} src={`https://rootletsolutions.com/rootlet-admin/${blog.img}`} alt={blog.title} /></Link>
                             </div>
                             <div className="col-lg-8 col-md-8 blog-sec">
                                 <div>
